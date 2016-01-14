@@ -2298,9 +2298,9 @@ If you have any questions about these Terms or otherwise need to contact Unipub 
                                                     </constraints>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="914-KR-5Pw">
-                                                    <rect key="frame" x="342" y="12" width="25" height="25"/>
+                                                    <rect key="frame" x="342" y="13.5" width="25" height="22"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="25" id="BkV-W2-mhS"/>
+                                                        <constraint firstAttribute="height" constant="22" id="BkV-W2-mhS"/>
                                                         <constraint firstAttribute="width" constant="25" id="rzj-dQ-lNh"/>
                                                     </constraints>
                                                     <state key="normal">

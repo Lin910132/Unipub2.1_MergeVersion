@@ -109,7 +109,7 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
     
     override func viewWillDisappear(animated: Bool)
     {
-        self.tableView.reloadData()
+        //self.tableView.reloadData()
         super.viewWillDisappear(animated)
         NSNotificationCenter.defaultCenter().removeObserver(self, name: "imageViewTapped", object:nil)
         

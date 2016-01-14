@@ -171,7 +171,7 @@ class YRJokeCell: UITableViewCell {
         self.commentLabel!.text = "\(commentCount) "
         
         
-        var cellHeight:CGFloat = YRJokeCell.cellHeightByData(self.data);
+        //var cellHeight:CGFloat = YRJokeCell.cellHeightByData(self.data);
         //self.dislikeLabel?.setY(cellHeight/2)
         
         

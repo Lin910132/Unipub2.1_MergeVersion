@@ -38,7 +38,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         //MARK: I changed
-        self.navigationController?.navigationBarHidden = false
+        self.navigationController?.navigationBarHidden = true
         
         //add background to status bar
         let modalView:UIView = UIView(frame: CGRectMake(0 , 0, self.view.frame.width, UIApplication.sharedApplication().statusBarFrame.height+2))
@@ -96,6 +96,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
             //            controller.searchBar.placeholder = "Search your School"
             self.searchTableView.tableHeaderView = controller.searchBar
             //            self.searchTableView.tableHeaderView?.backgroundColor = UIColor(netHex: 0x3593DD)
+            self.navigationController?.navigationBarHidden = true
             return controller
         })()
 
@@ -105,7 +106,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
 //        let titleStr = self.navigationItem.title! as String
         print(Localize.currentLanguage(), "Explore".localized())
         self.navigationItem.title = "Explore".localized()
-        self.navigationController?.navigationBarHidden = false
+        self.navigationController?.navigationBarHidden = true
         
     }
     
