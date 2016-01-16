@@ -12,7 +12,7 @@ import CoreLocation
 import Localize_Swift
 
 
-var isSchool: Bool = false
+//var isSchool: Bool = false
 
 class YRNewPostViewController: UIViewController, UIImagePickerControllerDelegate,UITextViewDelegate,UITextFieldDelegate,UINavigationControllerDelegate,UIActionSheetDelegate,CLLocationManagerDelegate,DKImagePickerControllerDelegate{
     
@@ -187,10 +187,10 @@ class YRNewPostViewController: UIViewController, UIImagePickerControllerDelegate
         if self.schoolId == "0"{
             let vc : UIViewController = mainStoryboard.instantiateViewControllerWithIdentifier("tabBarId")
             self.presentViewController(vc, animated: true, completion: nil)
-        }else if isSchool{
-            self.dismissViewControllerAnimated(true, completion: nil)
-        }else{
-            self.navigationController?.popViewControllerAnimated(true)
+        }else //if isSchool{
+        {self.dismissViewControllerAnimated(true, completion: nil)
+        //}else{
+            //self.navigationController?.popViewControllerAnimated(true)
         }
     }
     

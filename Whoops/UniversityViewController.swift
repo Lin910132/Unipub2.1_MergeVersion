@@ -26,7 +26,7 @@ class UniversityViewController: UITableViewController, YRRefreshViewDelegate,MFM
         SchoolObject.schoolId = self.schoolId;
         let mainStoryboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
         let vc : UIViewController = mainStoryboard.instantiateViewControllerWithIdentifier("postNavigation")
-        isSchool = true
+        //isSchool = true
         self.presentViewController(vc, animated: true, completion: nil)
     }
     
