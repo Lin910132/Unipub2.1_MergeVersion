@@ -52,7 +52,7 @@ class YRNewPostViewController: UIViewController, UIImagePickerControllerDelegate
     var universityView:UniversityViewController!
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(true)
-        self.schoolId = "0"
+        //self.schoolId = "0"
     }
     
     override func viewWillAppear(animated: Bool) {
