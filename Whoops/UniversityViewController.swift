@@ -235,7 +235,7 @@ class UniversityViewController: UITableViewController, YRRefreshViewDelegate,MFM
         let commentsVC = YRCommentsViewController(nibName :nil, bundle: nil)
         commentsVC.jokeId = data.stringAttributeForKey("id")
         commentsVC.hidesBottomBarWhenPushed = true
-        self.navigationItem.title = "Back".localized()
+        //self.navigationItem.title = "Back".localized()
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         self.navigationController?.pushViewController(commentsVC, animated: true)
     }
