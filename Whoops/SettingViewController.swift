@@ -26,19 +26,22 @@ class SettingViewController: UITableViewController {
     let segItems = ["Left", "Right"]
     
     override func viewWillAppear(animated: Bool) {
-        self.votingLbl.text = "Voting".localized()
-        self.rightLeftSegControll.setTitle("Left".localized(), forSegmentAtIndex: 0)
-        self.rightLeftSegControll.setTitle("Right".localized(), forSegmentAtIndex: 1)
+        //self.votingLbl.text = "Voting".localized()
+        //self.rightLeftSegControll.setTitle("Left".localized(), forSegmentAtIndex: 0)
+        //self.rightLeftSegControll.setTitle("Right".localized(), forSegmentAtIndex: 1)
         self.languageLbl.text = "Language".localized()
         self.privacyPolicyLbl.text = "Privacy Policy".localized()
         self.rulesInfoLbl.text = "Rules & Info".localized()
         self.termsOfServiceLbl.text = "Terms of Service".localized()
         
-        
+        clearsSelectionOnViewWillAppear = true
         
         self.navigationItem.title = "Settings".localized()
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back".localized(), style: UIBarButtonItemStyle.Plain, target: self, action: "goBackBtn")
+        
     }
+    
+    
     func goBackBtn(){
         self.navigationController?.popViewControllerAnimated(true)
     }

@@ -1922,7 +1922,7 @@ If you have any questions about these Terms or otherwise need to contact Unipub 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="1tu-I5-2b7">
-                            <rect key="frame" x="0.0" y="349" width="375" height="200"/>
+                            <rect key="frame" x="0.0" y="305" width="375" height="200"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNl-gd-o6Z">
@@ -2018,53 +2018,8 @@ If you have any questions about these Terms or otherwise need to contact Unipub 
                         <sections>
                             <tableViewSection id="0tW-hy-t0F">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="MDM-C0-N1F">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" id="Tb5-TP-kCQ">
                                         <rect key="frame" x="0.0" y="99" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MDM-C0-N1F" id="26p-kf-1NK">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voting" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2g1-iR-1fi">
-                                                    <rect key="frame" x="8" y="11" width="49" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="88h-rT-oyG">
-                                                    <rect key="frame" x="244" y="8" width="123" height="29"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="28" id="Z4p-sW-ks4"/>
-                                                        <constraint firstAttribute="width" constant="123" id="sNg-mV-d4O"/>
-                                                    </constraints>
-                                                    <segments>
-                                                        <segment title=""/>
-                                                        <segment title=""/>
-                                                    </segments>
-                                                    <color key="tintColor" red="0.20784313730000001" green="0.57647058819999997" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </segmentedControl>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="88h-rT-oyG" secondAttribute="trailing" id="IK7-Vo-wx6"/>
-                                                <constraint firstItem="88h-rT-oyG" firstAttribute="baseline" secondItem="2g1-iR-1fi" secondAttribute="firstBaseline" id="Zei-Ek-1Fd"/>
-                                                <constraint firstItem="2g1-iR-1fi" firstAttribute="centerY" secondItem="26p-kf-1NK" secondAttribute="centerY" id="bqI-yQ-lD8"/>
-                                                <constraint firstItem="88h-rT-oyG" firstAttribute="firstBaseline" secondItem="2g1-iR-1fi" secondAttribute="baseline" id="c7i-6G-mfk"/>
-                                                <constraint firstItem="88h-rT-oyG" firstAttribute="top" secondItem="26p-kf-1NK" secondAttribute="topMargin" id="dDr-eB-kRW"/>
-                                                <constraint firstAttribute="centerY" secondItem="88h-rT-oyG" secondAttribute="centerY" id="uGE-ZE-TcP"/>
-                                                <constraint firstItem="2g1-iR-1fi" firstAttribute="leading" secondItem="26p-kf-1NK" secondAttribute="leadingMargin" id="whY-xi-8bf"/>
-                                            </constraints>
-                                            <variation key="default">
-                                                <mask key="constraints">
-                                                    <exclude reference="Zei-Ek-1Fd"/>
-                                                    <exclude reference="c7i-6G-mfk"/>
-                                                    <exclude reference="dDr-eB-kRW"/>
-                                                </mask>
-                                            </variation>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Tb5-TP-kCQ">
-                                        <rect key="frame" x="0.0" y="143" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tb5-TP-kCQ" id="sYJ-im-8oq">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -2090,8 +2045,8 @@ If you have any questions about these Terms or otherwise need to contact Unipub 
                             </tableViewSection>
                             <tableViewSection id="wxZ-bi-qvx">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Pbn-go-Cjq">
-                                        <rect key="frame" x="0.0" y="207" width="375" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" id="Pbn-go-Cjq">
+                                        <rect key="frame" x="0.0" y="163" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pbn-go-Cjq" id="KdD-np-Hr3">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -2113,8 +2068,8 @@ If you have any questions about these Terms or otherwise need to contact Unipub 
                                             <segue destination="X22-Qj-k33" kind="show" id="mOz-ff-U8l"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="7Ye-zd-uDY">
-                                        <rect key="frame" x="0.0" y="251" width="375" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" id="7Ye-zd-uDY">
+                                        <rect key="frame" x="0.0" y="207" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Ye-zd-uDY" id="9bJ-NV-gAd">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -2136,8 +2091,8 @@ If you have any questions about these Terms or otherwise need to contact Unipub 
                                             <segue destination="EnT-nq-s1o" kind="show" id="0nP-lE-Zlm"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="JPZ-mr-w6U">
-                                        <rect key="frame" x="0.0" y="295" width="375" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" id="JPZ-mr-w6U">
+                                        <rect key="frame" x="0.0" y="251" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JPZ-mr-w6U" id="lS1-uz-5Mb">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -2172,10 +2127,8 @@ If you have any questions about these Terms or otherwise need to contact Unipub 
                     <connections>
                         <outlet property="languageLbl" destination="nG8-HO-lHe" id="ikt-gp-Heu"/>
                         <outlet property="privacyPolicyLbl" destination="sB1-Bc-uOX" id="Ifa-UT-X0u"/>
-                        <outlet property="rightLeftSegControll" destination="88h-rT-oyG" id="cot-G9-KBd"/>
                         <outlet property="rulesInfoLbl" destination="awT-29-wtC" id="u92-fo-Jaj"/>
                         <outlet property="termsOfServiceLbl" destination="8VM-t2-3Be" id="u9v-TK-UpY"/>
-                        <outlet property="votingLbl" destination="2g1-iR-1fi" id="eaP-fw-Ymq"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H4y-hD-2cM" userLabel="First Responder" sceneMemberID="firstResponder"/>

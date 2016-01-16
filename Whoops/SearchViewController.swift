@@ -78,6 +78,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
     
     override func viewWillAppear(animated: Bool) {
         
+        SchoolObject.schoolId = "0"
         self.resultSearchController = ({
             let controller = UISearchController(searchResultsController: nil)
             controller.searchResultsUpdater = self
