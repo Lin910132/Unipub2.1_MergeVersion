@@ -20,6 +20,7 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
     @IBOutlet weak var favoriteBtn: UIButton!
     @IBOutlet weak var hotBtn: UIButton!
     @IBOutlet weak var allTimeHotBtn: UIButton!
+    @IBOutlet weak var rankBtn: UIButton!
     
     
     
@@ -30,7 +31,7 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
     let identifier = "cell"
     //    var tableView:UITableView?
     var dataArray = NSMutableArray()
-    var page = [1,1,1,1]
+    var page = [1,1,1,1,1]
     var refreshView:YRRefreshView?
     let locationManager: CLLocationManager = CLLocationManager()
     var stopLoading: Bool = false
@@ -39,9 +40,9 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
     var school:Int = 0
     var userId:String = "0"
     
-    var type:Int = 0
+    var type:Int = 4
     
-    let itemArray = ["New","Hot","Favorite","All Time Hot"]
+    let itemArray = ["New","Hot","Favorite","All Time Hot", "Rank"]
 
     override func viewDidLoad()
     {
@@ -53,6 +54,9 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
                 locationManager.requestWhenInUseAuthorization()
             }
         }
+        
+        //set highlight color for button
+        rankBtn.setTitleColor(UIColor.whiteColor(), forState: .Selected)
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "SendButtonRefresh:",name:"loadMain", object: nil)
         
@@ -277,6 +281,8 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
                 url += "post/listHotByLocation?latitude=\(lat)&longitude=\(lng)&pageNum=\(page[type])"
             }else if (type == 2){
                 url += "favorPost/list?uid=\(FileUtility.getUserId())&pageNum=\(page[type])"
+            }else if (type == 3){
+                url += "post/listHotAll?pageNum=\(page[type])"
             }else {
                 url += "post/listHotAll?pageNum=\(page[type])"
             }
@@ -287,7 +293,9 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
                 url += "post/listHotBySchool?schoolId=\(school)&pageNum=\(page[type])"
             }else if (type == 2){
                 url += "favorPost/list?uid=\(FileUtility.getUserId())&pageNum=\(page[type])"
-            }else {
+            }else if (type == 3){
+                url += "post/listHotAll?pageNum=\(page[type])"
+            }else{
                 url += "post/listHotAll?pageNum=\(page[type])"
             }
         }
@@ -413,7 +421,7 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
         let index = sender.tag
         self.stopLoading = false
         
-        for var i = 0;i<4;i++
+        for var i = 0;i<5;i++
         {
             let button = self.view.viewWithTag(i+100) as! UIButton
             if button.tag == index
@@ -425,6 +433,9 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
                 button.selected = false
             }
         }
+        
+        //let testBtn = self.view.viewWithTag(103) as! UIButton
+        //testBtn.selected = true
         
         self.page[self.type] = 1
         self.dataArray = NSMutableArray()

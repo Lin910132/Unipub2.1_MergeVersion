@@ -168,10 +168,11 @@ This Policy is current as of the Effective Date set forth above. We may change t
                                 <rect key="frame" x="0.0" y="64" width="375" height="32"/>
                                 <subviews>
                                     <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1Z-pf-aZw">
-                                        <rect key="frame" x="107" y="2" width="46" height="30"/>
+                                        <rect key="frame" x="131.5" y="1" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="Db4-R3-D19"/>
-                                            <constraint firstAttribute="width" constant="46" id="biI-wR-OM1"/>
+                                            <constraint firstAttribute="height" constant="30" id="HQu-hy-Sog"/>
+                                            <constraint firstAttribute="width" constant="46" id="WrT-4t-u2e"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal">
@@ -189,10 +190,11 @@ This Policy is current as of the Effective Date set forth above. We may change t
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUH-Yd-Kip">
-                                        <rect key="frame" x="153" y="2" width="69" height="30"/>
+                                        <rect key="frame" x="177.5" y="1" width="70" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="3dV-Lp-Fsy"/>
-                                            <constraint firstAttribute="width" constant="69" id="zUO-kY-Gnw"/>
+                                            <constraint firstAttribute="height" constant="30" id="JZc-Yn-Y0i"/>
+                                            <constraint firstAttribute="width" constant="70" id="Nbv-1c-YYD"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal">
@@ -209,32 +211,12 @@ This Policy is current as of the Effective Date set forth above. We may change t
                                             <action selector="tabBarButtonClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="W8E-QW-uMg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Af-KH-8Pe">
-                                        <rect key="frame" x="220" y="2" width="92" height="30"/>
+                                    <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1b-It-OOO">
+                                        <rect key="frame" x="85.5" y="1" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="H0T-io-JzO"/>
-                                            <constraint firstAttribute="width" constant="92" id="X7m-mx-JDw"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.47999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="selected">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="tabBarButtonClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="7TA-QL-iZc"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="100" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1b-It-OOO">
-                                        <rect key="frame" x="60" y="2" width="46" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="G1S-aC-Kx2"/>
-                                            <constraint firstAttribute="width" constant="46" id="v76-Ju-4cT"/>
+                                            <constraint firstAttribute="height" constant="30" id="1Sv-G3-TOg"/>
+                                            <constraint firstAttribute="width" constant="46" id="pSh-gi-k5Z"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal">
@@ -251,19 +233,70 @@ This Policy is current as of the Effective Date set forth above. We may change t
                                             <action selector="tabBarButtonClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="45B-dv-dfn"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" tag="104" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dj-Nz-ili">
+                                        <rect key="frame" x="42.5" y="1" width="35" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="Ve6-g2-5E6"/>
+                                            <constraint firstAttribute="height" constant="30" id="edE-jj-rsV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Rank">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.47999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tabBarButtonClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Ygr-oY-lTS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Af-KH-8Pe">
+                                        <rect key="frame" x="247.5" y="1" width="92" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="92" id="XwQ-uz-6Nr"/>
+                                            <constraint firstAttribute="height" constant="30" id="oF9-MK-3Jl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.47999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tabBarButtonClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="7TA-QL-iZc"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="u1b-It-OOO" firstAttribute="top" secondItem="YVq-Ps-uq4" secondAttribute="top" constant="2" id="87h-7u-aCp"/>
-                                    <constraint firstItem="S1Z-pf-aZw" firstAttribute="leading" secondItem="u1b-It-OOO" secondAttribute="trailing" constant="1" id="UFk-Th-6TR"/>
-                                    <constraint firstItem="VUH-Yd-Kip" firstAttribute="leading" secondItem="S1Z-pf-aZw" secondAttribute="trailing" id="X83-d8-VuD"/>
-                                    <constraint firstItem="VUH-Yd-Kip" firstAttribute="top" secondItem="YVq-Ps-uq4" secondAttribute="top" constant="2" id="dbR-B9-i9N"/>
-                                    <constraint firstItem="S1Z-pf-aZw" firstAttribute="top" secondItem="YVq-Ps-uq4" secondAttribute="top" constant="2" id="eam-eo-H5C"/>
+                                    <constraint firstItem="VUH-Yd-Kip" firstAttribute="centerY" secondItem="YVq-Ps-uq4" secondAttribute="centerY" id="0QE-hz-kSt"/>
+                                    <constraint firstItem="S1Z-pf-aZw" firstAttribute="leading" secondItem="u1b-It-OOO" secondAttribute="trailing" id="2iu-Pl-dEK"/>
+                                    <constraint firstItem="VUH-Yd-Kip" firstAttribute="centerX" secondItem="YVq-Ps-uq4" secondAttribute="centerX" constant="25" id="4oH-NI-4lQ"/>
+                                    <constraint firstItem="VUH-Yd-Kip" firstAttribute="leading" secondItem="S1Z-pf-aZw" secondAttribute="trailing" constant="8" symbolic="YES" id="6Cb-kR-ztY"/>
+                                    <constraint firstItem="2Af-KH-8Pe" firstAttribute="leading" secondItem="VUH-Yd-Kip" secondAttribute="trailing" constant="12" id="CXk-7a-N22"/>
+                                    <constraint firstItem="2Af-KH-8Pe" firstAttribute="leading" secondItem="VUH-Yd-Kip" secondAttribute="trailing" id="Dhg-KP-d2r"/>
+                                    <constraint firstItem="u1b-It-OOO" firstAttribute="centerY" secondItem="YVq-Ps-uq4" secondAttribute="centerY" id="O10-ak-NGQ"/>
+                                    <constraint firstItem="S1Z-pf-aZw" firstAttribute="centerY" secondItem="YVq-Ps-uq4" secondAttribute="centerY" id="RLN-WR-KtP"/>
+                                    <constraint firstItem="u1b-It-OOO" firstAttribute="leading" secondItem="6dj-Nz-ili" secondAttribute="trailing" constant="8" id="ijh-8v-TXz"/>
                                     <constraint firstAttribute="height" constant="32" id="ksd-Ea-oqx"/>
-                                    <constraint firstItem="2Af-KH-8Pe" firstAttribute="leading" secondItem="VUH-Yd-Kip" secondAttribute="trailing" constant="-2" id="nLc-IU-VJ2"/>
-                                    <constraint firstAttribute="centerX" secondItem="VUH-Yd-Kip" secondAttribute="centerX" id="vDu-fL-t8m"/>
-                                    <constraint firstItem="2Af-KH-8Pe" firstAttribute="top" secondItem="YVq-Ps-uq4" secondAttribute="top" constant="2" id="yQQ-5t-Bak"/>
+                                    <constraint firstItem="2Af-KH-8Pe" firstAttribute="centerY" secondItem="YVq-Ps-uq4" secondAttribute="centerY" id="uAn-hj-T7H"/>
+                                    <constraint firstItem="VUH-Yd-Kip" firstAttribute="leading" secondItem="S1Z-pf-aZw" secondAttribute="trailing" id="yaP-dx-sKD"/>
+                                    <constraint firstAttribute="trailing" secondItem="VUH-Yd-Kip" secondAttribute="trailing" constant="112" id="ypD-TX-uKg"/>
+                                    <constraint firstItem="6dj-Nz-ili" firstAttribute="centerY" secondItem="YVq-Ps-uq4" secondAttribute="centerY" id="znz-QX-1yq"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6Cb-kR-ztY"/>
+                                        <exclude reference="ypD-TX-uKg"/>
+                                        <exclude reference="CXk-7a-N22"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="A2Z-bp-gL3">
                                 <rect key="frame" x="0.0" y="94" width="375" height="524"/>
@@ -287,6 +320,7 @@ This Policy is current as of the Effective Date set forth above. We may change t
                         <outlet property="favoriteBtn" destination="VUH-Yd-Kip" id="L9W-gz-4qc"/>
                         <outlet property="hotBtn" destination="S1Z-pf-aZw" id="eQW-Am-MW4"/>
                         <outlet property="newBtn" destination="u1b-It-OOO" id="EJt-bx-cJa"/>
+                        <outlet property="rankBtn" destination="6dj-Nz-ili" id="izJ-IU-toG"/>
                         <outlet property="tableView" destination="A2Z-bp-gL3" id="qOz-MJ-8fT"/>
                         <outlet property="topBarview" destination="YVq-Ps-uq4" id="Co3-WZ-uXp"/>
                         <segue destination="RhR-4p-SGt" kind="show" identifier="showComment" id="p84-es-z4M"/>
