@@ -339,6 +339,11 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
         cell!.delegate = self;
         cell!.refreshMainDelegate = self
         cell!.backgroundColor = UIColor(red:246.0/255.0 , green:246.0/255.0 , blue:246.0/255.0 , alpha: 1.0);
+        
+        //if (self.type == 4){
+        //    cell!.favButton.hidden = true
+        //}
+        
         if (indexPath.row == self.dataArray.count-1) && (self.stopLoading == false){
             self.page[self.type]++
             loadData(self.type)
@@ -355,6 +360,11 @@ class YRMainViewController: UIViewController,UITableViewDelegate,UITableViewData
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
+        //if (self.type == 4){
+        //    tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        //    return
+        //}
+        
         let index = indexPath.row
         let data = self.dataArray[index] as! NSDictionary
         let commentsVC = YRCommentsViewController(nibName :nil, bundle: nil)
